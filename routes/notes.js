@@ -16,6 +16,8 @@ bodyText:'ノート2の本文です'
 },
 };
 
+router.get('/', function (req, res, next){
+
 res.json(responseObjectDataAll);
 })
 
